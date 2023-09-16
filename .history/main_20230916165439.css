@@ -89,12 +89,12 @@ header{
 @media(min-width:576px) {
   .row-menu1 .menu{
     width: 12%;
-    margin-right: 10%;
+    margin-right: 135px;
     padding: 5px;
   }
   .row-menu2{
     flex-direction: row;
-    margin: 0 11%;
+    margin: 0 164px;
     padding:5px 0;
   }
   .row-menu2 .menu{
@@ -106,8 +106,7 @@ header{
     height: 60px;
     position: static;
     top:initial;
-    margin: 12px 0;
-    padding: 0;
+    padding: 12px 0;
   }
   .search-button{
     padding: 23px 0;

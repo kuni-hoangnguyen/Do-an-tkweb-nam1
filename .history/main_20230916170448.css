@@ -89,7 +89,7 @@ header{
 @media(min-width:576px) {
   .row-menu1 .menu{
     width: 12%;
-    margin-right: 10%;
+    margin-right: 135px;
     padding: 5px;
   }
   .row-menu2{

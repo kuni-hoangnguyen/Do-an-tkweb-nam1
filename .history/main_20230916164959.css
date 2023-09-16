@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
 }
 header{
   border-style: none none inset  none;
@@ -21,7 +20,7 @@ header{
 }
 .row-menu1 .menu{
   flex-direction: row;
-  width: 45%;
+  width: 40%;
   margin-right: 0;
   margin-left: auto;
   padding: 14px 0;
@@ -88,13 +87,13 @@ header{
 
 @media(min-width:576px) {
   .row-menu1 .menu{
-    width: 12%;
-    margin-right: 10%;
+    width: 15%;
+    margin-right: 135px;
     padding: 5px;
   }
   .row-menu2{
     flex-direction: row;
-    margin: 0 11%;
+    margin: 0 164px;
     padding:5px 0;
   }
   .row-menu2 .menu{
@@ -103,10 +102,10 @@ header{
   }
   .logo{
     width: 100%;
-    height: 60px;
+    height: 70px;
     position: static;
     top:initial;
-    margin: 12px 0;
+    margin:7px 0;
     padding: 0;
   }
   .search-button{
