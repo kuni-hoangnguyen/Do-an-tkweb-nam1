@@ -147,7 +147,7 @@ header{
 .img-list-mobile img{
   max-width: 40px;
   max-height: 40px;
-  padding: 8px 0;
+  padding: 7px 0;
 }
 .img-list-mobile .menu{
   flex-direction: column;
