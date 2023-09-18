@@ -174,5 +174,8 @@ main img {
     font-size: 28px;
     margin-top: -35px;
   }
+  main{
+    margin-top: 125px;
+  }
 }
 
