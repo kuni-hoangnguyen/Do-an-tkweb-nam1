@@ -319,25 +319,17 @@ footer div div li img{
   border: none;
 }
 .f-ar2{
-  padding: 1% 11%;
+  padding: 0% 11%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: #F4F4F2;
+  padding: 1%;
 }
 .f-ar2 .menu-link{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  display: inline-block;
-  margin: 5%;
-}
-.f-ar2 .fix2{
-  font-size: 14px;
-  display: inline;
-  margin: 0;
-  font-weight: 500;
-  color: #8c7422;
-  padding-left: 1%;
+  
 }
 .card3{
   width: 340px;

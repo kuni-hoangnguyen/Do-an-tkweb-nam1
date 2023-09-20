@@ -200,7 +200,6 @@ header{
 .product-card:hover{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 5px;
-  transform: scale(1.01);
 }
 .product-card a img{
   width: 158px;
@@ -241,7 +240,9 @@ footer{
   height: 200px;
 
 }
-
+#f-ar{
+  background-color: #F4F4F2;
+}
 .b-end{
   background-color: #adc2c9;
   padding: 2.5% 7%;
@@ -250,7 +251,7 @@ footer{
   justify-content: space-around;
 }
 .card2{
-  width: 210px;
+  width: 180px;
   text-align: left;
   border-radius: 5px;
   padding: 10px;
@@ -310,53 +311,6 @@ footer div div li img{
   color:rgb(157, 157, 157);
   font-size: 14px;
 }
-#f-ar{
-  margin: auto;
-  padding: 1% 12%;
-  padding-top: 2%;
-  background-color: #F4F4F2;
-  text-align: center;
-  border: none;
-}
-.f-ar2{
-  padding: 1% 11%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: #F4F4F2;
-}
-.f-ar2 .menu-link{
-  font-size: 20px;
-  font-weight: 600;
-  display: inline-block;
-  margin: 5%;
-}
-.f-ar2 .fix2{
-  font-size: 14px;
-  display: inline;
-  margin: 0;
-  font-weight: 500;
-  color: #8c7422;
-  padding-left: 1%;
-}
-.card3{
-  width: 340px;
-  height: 330px;
-  background-color: white;
-  margin-bottom: 3%;
-  border-radius: 5px;
-}
-.card3:hover{
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 5px;
-  transform: scale(1.01);
-}
-.pod{
-  width: 340px;
-  height: 177px;
-  border-radius: 5px 5px 0  0;
-}
-
 
 @media(min-width:576px) {
   .row-menu1 .menu{

@@ -200,7 +200,6 @@ header{
 .product-card:hover{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 5px;
-  transform: scale(1.01);
 }
 .product-card a img{
   width: 158px;
@@ -319,25 +318,11 @@ footer div div li img{
   border: none;
 }
 .f-ar2{
-  padding: 1% 11%;
+  padding: 0% 11%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: #F4F4F2;
-}
-.f-ar2 .menu-link{
-  font-size: 20px;
-  font-weight: 600;
-  display: inline-block;
-  margin: 5%;
-}
-.f-ar2 .fix2{
-  font-size: 14px;
-  display: inline;
-  margin: 0;
-  font-weight: 500;
-  color: #8c7422;
-  padding-left: 1%;
 }
 .card3{
   width: 340px;
@@ -346,15 +331,10 @@ footer div div li img{
   margin-bottom: 3%;
   border-radius: 5px;
 }
-.card3:hover{
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 5px;
-  transform: scale(1.01);
-}
 .pod{
   width: 340px;
   height: 177px;
-  border-radius: 5px 5px 0  0;
+  border-radius: 5px 0 5px ;
 }
 
 
