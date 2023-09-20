@@ -1,0 +1,85 @@
+
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+
+}
+.column2 {
+  float: left;
+  width: 70%;
+  padding: 10px;
+
+}
+.row{
+  margin: 0 11%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1 .title{
+  margin: 0;
+  padding-left: 0;
+}
+.border-line{
+  border-style: none none inset none;
+  margin: 5% auto;
+}
+.title4{
+  font-weight: 600;
+  font-size: 20px;
+  margin: 3% 0;
+}
+.icon2{
+  font-size: 20px;
+  padding: 5px;
+  width: 39px;
+  text-align: center;
+  float: left;
+
+}
+.cmt2{
+  font-size: 12px;
+  display: inline-block;
+  margin: 9px 0;
+  color: rgb(51, 51, 51) ;
+}
+.message{
+  display: block  ;
+}
+.form{
+  border-radius:8px;
+  padding:20px 30px;
+  box-sizing:border-box;
+  position:relative
+}
+input{
+  width:100%;
+  padding:10px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border:0;
+  transition:all .3s;
+  border-bottom:2px solid #bebed2}
+.form p::before{
+  content:attr(type);
+  display:block;
+  margin:28px 0 0;
+  font-size:14px;
+  color:#5a5a5a;
+}
+.form button{
+  float:left;
+  padding:8px 12px;
+  margin:8px 0 0;
+  border:2px solid #78788c;
+  background:0;color:#5a5a6e;
+  cursor:pointer;
+  transition:all .3s}
+  .form button:hover{
+    background:#78788c;
+    color:#fff}

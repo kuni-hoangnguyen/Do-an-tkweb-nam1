@@ -364,7 +364,7 @@ footer div div li img{
 
 .breadcrumb li {
   display: inline;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .breadcrumb li+li:before {
@@ -375,6 +375,7 @@ footer div div li img{
 .breadcrumb li a {
   color: #9f8a46;
   text-decoration: none;
+  font-size: 12px;
 }
 .breadcrumb li a:hover {
   color: #8c7422;
