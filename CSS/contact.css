@@ -12,7 +12,7 @@
 
 }
 .row{
-  margin: 0 11%;
+  margin: 2% 11%;
 }
 .row:after {
   content: "";
@@ -25,12 +25,12 @@
 }
 .border-line{
   border-style: none none inset none;
-  margin: 5% auto;
+  margin:auto;
 }
 .title4{
   font-weight: 600;
   font-size: 20px;
-  margin: 3% 0;
+  margin: auto;
 }
 .icon2{
   font-size: 20px;
@@ -65,7 +65,7 @@ input{
   resize:none;
   border:0;
   transition:all .3s;
-  border-bottom:2px solid #bebed2}
+  border-bottom:3px inset}
 .form p::before{
   content:attr(type);
   display:block;

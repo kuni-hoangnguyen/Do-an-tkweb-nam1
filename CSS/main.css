@@ -456,11 +456,11 @@ footer div div li img{
     text-align: left;
     font-size: 22px;
     margin: 0 11%;
-    margin-top: 3%;
+    margin-top: 2%;
     padding: 1%;
   }
   .product{
-    margin: 0 11%;
+    margin: 1% 11%;
   }
   #end{
     flex-direction: row;
