@@ -47,6 +47,7 @@ main{
   float: left;
   width: 40%;
   padding: 10px;
+  background-color: #F4F4F2;
 }
 .row:after {
   content: "";

@@ -60,8 +60,6 @@ main{
 .background{
   background-color: #F4F4F2;
   padding: 3%;
-  border-style: none none inset none;
-  border-color: white;
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button {  

@@ -25,9 +25,9 @@ main{
   display: none
 }
 .product-name{
-  font-weight: 700;
-  font-size: 24px;
-  margin: 3% 0;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 1%;
 }
 .star2{
   margin-bottom: 2%;
@@ -60,8 +60,6 @@ main{
 .background{
   background-color: #F4F4F2;
   padding: 3%;
-  border-style: none none inset none;
-  border-color: white;
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button {  
@@ -85,7 +83,7 @@ input[type="number"]{
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 18px 140px;
+  padding: 18px 14px;
   border-radius: 6px;
   border: none;
 
@@ -103,19 +101,4 @@ input[type="number"]{
 .button-12:focus {
   box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
   outline: 0;
-}
-.button-12:active{
-  background-color: #8c7422;
-  color: white;
-}
-
-table{
-  background-color: #FEFEFC;
-  width: 100%;
-}
-th, td {
-  padding: 15px 0;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-  font-size: 14px;
 }
