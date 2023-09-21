@@ -20,7 +20,7 @@ main{
   opacity: 0.5;
   cursor: pointer;
   transition: 0.5s;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
